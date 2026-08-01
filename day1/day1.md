@@ -5,13 +5,19 @@
 ## Before we start
 
 **1. What is a programming language?**
+
 Imagine you want to talk to someone who only speaks French, but you only speak English. You'd need a translator. A programming language is exactly that — a translator language between us (humans) and the computer. We write instructions in a language like JavaScript, and the computer follows them exactly, step by step.
 
+---
 **2. Why do we need a programming language?**
+
 We already speak English, Hindi, Telugu, and so on. The problem: a computer doesn't understand *any* human language. A computer only understands one thing — electricity, either **on** or **off**. Human languages are also messy and full of double meanings ("I saw her duck" — did she own a duck, or did she bend down?). A computer can't work with that confusion. So we invented programming languages — simple, strict, no double meanings — that sit *in between* human language and electricity, and can be converted step-by-step into on/off signals a machine understands.
+---
 
 **3. How do we talk to machines? (Binary)**
+
 Think of a computer as a giant wall of light switches. Each switch is either **ON (1)** or **OFF (0)** — nothing in between. This on/off system is called **binary**. Every single thing inside a computer — every letter, number, photo, video, sound — is just a very long pattern of these switches flipped on or off.
+---
 
 *Example:* the letter **A** is stored as `01000001`. That's 8 switches — off, on, off, off, off, off, off, on. When you press "A" on your keyboard, the computer never sees the letter "A" — it only sees that exact pattern of switches.
 
