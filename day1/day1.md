@@ -1,7 +1,5 @@
 # Day 1 – Programming Basics & Full Stack
 
----
-
 ## Before we start
 
 **1. What is a programming language?**
