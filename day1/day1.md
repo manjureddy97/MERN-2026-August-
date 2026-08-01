@@ -17,7 +17,7 @@ Think of a computer as a giant wall of light switches. Each switch is either **O
 
 We never write these switch-patterns by hand ourselves — it would take forever and no human could manage a real app that way. So we write in a programming language instead, and a **compiler / interpreter** (a translator program) automatically converts it into binary for us:
 
-![Why we need programming languages, down to binary](../images/day1/programming_language_binary_flow.svg)
+![Why we need programming languages, down to binary](images/programming_language_binary_flow.svg)
 
 This is the whole reason programming languages exist: they let us write in something readable, while the computer still gets exact on/off instructions underneath.
 
@@ -30,7 +30,7 @@ MERN is a nickname for 4 tools used together to build one working web applicatio
 
 Think of it like building a house: React is the rooms you walk into and use, Express + Node is the plumbing and electrical system working behind the walls, and MongoDB is the storage room where everything is kept.
 
-![MERN acronym breakdown](../images/day1/mern_stack_breakdown.svg)
+![MERN acronym breakdown](images/mern_stack_breakdown.svg)
 
 **5. What are we going to do in this bootcamp?**
 We'll learn each of these 4 pieces one at a time — starting with the basics of JavaScript, then React (frontend), then Node + Express (backend), then MongoDB (database) — and by the end, connect all of them into one real, working application, the same way it's done in real companies.
@@ -60,7 +60,7 @@ Browser (React) ←── HTTP ──→ Node.js + Express ←──→ MongoDB 
 
 The frontend talks to the backend via HTTP requests (like fetching your profile data), and the backend reads/writes to the database.
 
-![MERN stack architecture](../images/day1/mern_stack_overview.svg)
+![MERN stack architecture](images/mern_stack_overview.svg)
 
 > **In short:** Frontend = what you see, Backend = what it does, Database = what it remembers. Full stack = all three together.
 
@@ -72,6 +72,6 @@ You'll notice **TypeScript** shows up on both the frontend (with React) and the 
 
 **What does "type safety" mean, in plain terms?** It means TypeScript checks your code *while you're writing it* and warns you if you're about to make a mistake — like trying to add a number to a word, or using a variable that doesn't exist. Without it, that same mistake would only be discovered later, after the app actually runs and breaks.
 
-![TypeScript's role across frontend and backend](../images/day1/typescript_role.svg)
+![TypeScript's role across frontend and backend](images/typescript_role.svg)
 
 We haven't started JavaScript itself yet — that comes first. TypeScript builds *on top of* JavaScript, so once we're comfortable with JavaScript, TypeScript will feel like a small, helpful add-on rather than a whole new language.
