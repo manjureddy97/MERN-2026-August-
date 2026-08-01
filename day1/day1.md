@@ -78,4 +78,3 @@ You'll notice **TypeScript** shows up on both the frontend (with React) and the 
 
 ![TypeScript's role across frontend and backend](images/typescript_role.svg)
 
-We haven't started JavaScript itself yet — that comes first. TypeScript builds *on top of* JavaScript, so once we're comfortable with JavaScript, TypeScript will feel like a small, helpful add-on rather than a whole new language.
